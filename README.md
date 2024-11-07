@@ -19,5 +19,5 @@ As dependências do projeto estão listadas no arquivo `requisitos.txt`. Este ar
 Clone o repositório para sua máquina local e navegue até o diretório do projeto:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clonehttps://github.com/mariogomes23/chat-bot-ollama
+cd chat-bot-ollama
