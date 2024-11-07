@@ -1,2 +1,6 @@
-ollama
 streamlit
+tabulate
+groq
+python-dotenv
+pandas
+

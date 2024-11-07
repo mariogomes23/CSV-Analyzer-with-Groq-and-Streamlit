@@ -1,23 +1,28 @@
-# Chatbot com Llama e Streamlit
+# 📊 CSV Analyzer with Groq and Streamlit
 
-Este é um projeto de chatbot desenvolvido com o modelo **Llama** e a biblioteca **Streamlit** para fornecer uma interface interativa de conversa. Siga as instruções abaixo para configurar e executar o projeto localmente.
+Bem-vindo ao **CSV Analyzer**, uma aplicação interativa desenvolvida com **Streamlit** e **Groq**. Este projeto permite carregar arquivos CSV e fazer perguntas sobre o conteúdo, com respostas geradas por modelos avançados de linguagem.
 
-## Requisitos
+## 🚀 Funcionalidades
 
-- **Python 3.7+** 
-- **Pip** (gerenciador de pacotes do Python)
-- **Modelo Llama** instalado e configurado em sua máquina
+- **Carregamento de CSV**: Envie arquivos CSV para análise.
+- **Análise de Dados com IA**: Use a API da Groq para perguntas e obtenha insights sobre os dados carregados.
+- **Interface Amigável**: Interface intuitiva para carregar arquivos, fazer perguntas e visualizar respostas rapidamente.
 
-### Dependências
+## 🛠️ Tecnologias Utilizadas
 
-As dependências do projeto estão listadas no arquivo `requisitos.txt`. Este arquivo inclui bibliotecas como Streamlit e outras que o Llama pode exigir.
+- **Python**: Linguagem principal da aplicação.
+- **Streamlit**: Framework para criar interfaces web interativas.
+- **Groq API**: Para gerar respostas de IA com base em perguntas sobre o CSV carregado.
+- **Docker** e **Docker Compose**: Facilita o deploy e execução do projeto.
 
-## Passo a Passo para Rodar o Projeto
+## 📂 Estrutura de Arquivos
 
-### 1. Clone o Repositório
-
-Clone o repositório para sua máquina local e navegue até o diretório do projeto:
-
-```bash
-git clone https://github.com/mariogomes23/chat-bot-ollama
-cd chat-bot-ollama
+```plaintext
+.
+├── .env                        # Variáveis de ambiente, incluindo a chave da API Groq
+├── app.py                      # Arquivo principal do Streamlit
+├── csv_handler.py              # Módulo para manipulação de CSV
+├── groq_client.py              # Cliente da API Groq
+├── Dockerfile                  # Dockerfile para construir a imagem
+├── docker-compose.yml          # Docker Compose para simplificar o deploy
+└── requirements.txt            # Dependências do projeto
